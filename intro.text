@@ -1,12 +1,4 @@
-commands to push to github
 
-//to track
-git add .
+comments
 
-
-//to commit
-git commit -m"your message"
-
-
-//to push
-git push
+documentation
