@@ -1,4 +1,5 @@
 package assignments;
+import java.util.Scanner;
 /*
  * 
  * This program calculates the user's age based on their year of birth.
@@ -7,19 +8,21 @@ package assignments;
  */
 public class agecalc {
     public static void main (String [] args){
-        //get users birth year
-        //calculate and output the user's age
-        //year of birth
-        int DOB = 2000;
-
-        //to get users age: current year - dob
-      
+        Scanner newscanner = new Scanner(System.in);
+        int DOB;
+        String name;
+        System.out.print("what is your name: ");
+        name = newscanner.next();
+        System.out.print("what is your year of birth: ");
+        DOB = newscanner.nextInt();
+        System.out.println("after the scanner");
+    
 
         int currentYear = 2025;
-
-
         int userAge = currentYear - DOB;
-        System.out.println(userAge);
+
+        System.out.println("you are " + userAge+"yrs old!!");
+        newscanner.close();
     }
     
 
