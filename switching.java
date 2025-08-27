@@ -14,24 +14,6 @@ public class switching {
         System.out.print("input your grade: ");
         grade = scanner.next();
 
-        // if(grade.equals("A")){
-        //     System.out.println("perfect");
-        // }
-        // else if(grade.equals("B")){
-        //     System.out.println("very good");
-        // }
-        // else if(grade.equals("C")){
-        //     System.out.println("good");
-        // }
-        // else if(grade.equals("D")){
-        //     System.out.println("poor");
-        // }
-        // else if(grade.equals("E")){
-        //     System.out.println("very poor");
-        // }
-        // else{
-        //     System.out.println("not a valid grade");
-        // }
         
 
         switch (grade){
