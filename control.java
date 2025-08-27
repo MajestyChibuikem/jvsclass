@@ -13,5 +13,6 @@ public class control {
         else{
             System.out.println("you are short");
         }
+        newscanner.close();
     }
 }

@@ -35,5 +35,6 @@ public class switching {
             default:
                 System.out.println("not a valid grade");
         }
+        scanner.close();
     }
 }

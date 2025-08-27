@@ -10,9 +10,6 @@ public class agecalc {
     public static void main (String [] args){
         Scanner newscanner = new Scanner(System.in);
         int DOB;
-        String name;
-        System.out.print("what is your name: ");
-        name = newscanner.next();
         System.out.print("what is your year of birth: ");
         DOB = newscanner.nextInt();
         System.out.println("after the scanner");

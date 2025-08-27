@@ -25,6 +25,16 @@ public class variable{
 
         short whole = 128;
         double deci = 10.123456789111213d;
+        System.out.println(name);
+        System.out.println(testpoint);
+        System.out.println(number);
+        System.out.println(noOfBalls);
+        System.out.println(isTrue);
+        System.out.println(gpa);
+        System.out.println(grade);
+        System.out.println(whole);
+        System.out.println(deci);
+
         String bigA = "A";
         String smallA = "a";
         boolean anything =  (bigA == smallA);//is 1 less than 0?
