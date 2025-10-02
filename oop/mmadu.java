@@ -3,7 +3,6 @@ package oop;
 public class mmadu {
     public static void main(String[] args) {
         Human human = new Human();
-
         human.setNoOfEyes(10);
         System.out.println(human.getNoOfEye());
 
